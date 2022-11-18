@@ -10,6 +10,7 @@
     --grey: #A5A5A5;
     --white: #FFFFFF;
     --dark-grey: #707070;
+    --grey-background: #F7F7F7;
     --font-raleway: "Raleway", sans-serif;
     --font--open-sans: "Open Sans", sans-serif;
 }
@@ -143,6 +144,7 @@ opener
 .stats__elements {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 121px;
 }
 
@@ -230,4 +232,77 @@ opener
 .stats__element:nth-of-type(3) .stats__text {
     width: 163px;
     padding: 0 15px;
+}
+
+/** benefits
+ */
+
+.benefits__container {
+    background-color: var(--grey-background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.benefits__container__single {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    height: 370px;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+}
+
+.benefits__container__single:nth-of-type(1) {
+    margin-bottom: 37px;
+}
+
+.benefits__container__text:nth-of-type(1) {
+    margin-left: 3%;
+    margin-right: 15%;
+    width: 37%;
+    height: 188px;
+    border-bottom: 4px solid var(--red);
+}
+
+.benefits__container__text:nth-of-type(1) .benefits__title {
+    padding-bottom: 30px;
+}
+
+.benefits__container__text:nth-of-type(1) .benefits__text {
+    line-height: 22px;
+    width: 416px;
+}
+
+.benefits__container__single:nth-of-type(1) .benefits__container__img {
+    position: relative;
+    height: 294px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 169px;
+    margin-right: 71px;
+}
+
+.benefits__container__single:nth-of-type(1) .benefits__container__img > .benefits__object {
+    background-color: var(--red);
+    background-repeat: no-repeat;
+    border-radius: 41px;
+    width: 180px;
+    height: 180px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+}
+
+.benefits__container__single:nth-of-type(1) .benefits__img > img {
+    position: absolute;
+    width: 386px;
+    height: 219px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 30%;
+    top: 30%;
 }
