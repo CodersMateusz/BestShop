@@ -1,0 +1,40 @@
+.header {
+  height: 70px;
+  box-shadow: 0 3px 6px #00000029;
+
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    .header__nav {
+      display: flex;
+
+      .header__nav__element {
+        padding: 0 26px;
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+
+      .header__nav__link {
+        color: $grey;
+        font-size: 0.6875rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 0.9375rem;
+        letter-spacing: 0.1875rem;
+        padding: 28px 18px 22px;
+        border: 4px solid transparent;
+
+        &:hover {
+          color: $black;
+          border-bottom-color: $blue;
+        }
+      }
+    }
+  }
+}

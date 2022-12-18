@@ -1,0 +1,43 @@
+.opener {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .opener__content {
+    margin-top: 130px;
+    text-align: center;
+
+    .opener__title {
+      font-family: $font-raleway;
+      font-size: calc($base-size * 3.0625);
+      line-height: calc($base-size) * 3.5625;
+    }
+
+    .opener__text {
+      height: calc($base-size) * 1.375;
+      font-size: $base-size;
+      line-height: calc($base-size) * 1.375;
+      margin-bottom: calc($base-size) * 2.375;
+    }
+
+    .opener__btn {
+      padding: calc($base-size) * 1.375 157px;
+      border-radius: calc($base-size) * 2.5;
+      border: none;
+    }
+
+    .opener__btn__text {
+      color: $white;
+      font-size: $base-size;
+      line-height: calc($base-size) * 1.375;
+      font-weight: bold;
+      font-family: $font--open-sans;
+    }
+  }
+  .opener__img {
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

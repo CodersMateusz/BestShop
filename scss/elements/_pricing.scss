@@ -1,0 +1,119 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+
+
+  .pricing__boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+
+    .pricing__box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 372px;
+      border: 1px solid;
+      border-radius: 18px;
+
+
+      .pricing__details {
+        margin-top: 34px;
+        margin-bottom: 69px;
+        text-align: center;
+
+
+        .pricing__box__type {
+          font-family: $font-raleway;
+          font-size: calc($base-size * 1.25);
+          font-weight: bold;
+        }
+
+        .pricing__box__price {
+          font-size: calc($base-size * 2.875);
+          font-weight: 300;
+          margin-top: 14px;
+        }
+
+        .pricing__box__offer {
+          font-size: calc($base-size * 0.75);
+          font-family: $font-raleway;
+          font-weight: bold;
+          margin-top: 5px;
+        }
+      }
+
+      .pricing__list {
+        text-align: center;
+
+
+        .pricing__list__element {
+          font-size: calc($base-size * 0.875);
+          line-height: calc($base-size * 2.5625);
+
+
+          &::before {
+            content: "";
+            width: 11px;
+            height: 11px;
+            background-image: url("../assets/Ckechmark-1.svg");
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+
+        .pricing__list__element__not {
+
+          &::before {
+            background-image: url("../assets/Close.svg");
+          }
+        }
+      }
+
+      &:nth-of-type(1) {
+        border-color: $red;
+        margin-right: 59px;
+      }
+
+      &:nth-of-type(1) .pricing__box__price {
+        color: $red;
+        margin-bottom: 17px;
+      }
+
+      &:nth-of-type(1) .btn {
+        background-color: $red;
+      }
+
+      &:nth-of-type(2) {
+        border-color: $blue;
+        width: 405px;
+        margin-right: 58px;
+        box-shadow: 5px 10px 27px #07ACE629;
+      }
+
+      &:nth-of-type(2) .pricing__box__price {
+        color: $blue;
+      }
+
+      &:nth-of-type(2) .pricing__box__offer {
+        margin-bottom: 39px;
+      }
+
+      &:nth-of-type(3) {
+        border-color: $green;
+      }
+
+      &:nth-of-type(3) .pricing__box__price {
+        color: $green;
+      }
+
+      &:nth-of-type(3) .btn {
+        background-color: $green;
+      }
+    }
+  }
+}

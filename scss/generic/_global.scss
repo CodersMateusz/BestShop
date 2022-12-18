@@ -1,0 +1,48 @@
+$base-size: 16px;
+
+body {
+  font-family: $font--open-sans;
+}
+
+.container {
+  width: 1352px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: $font-raleway;
+  font-size: calc($base-size * 2.25);
+  line-height: calc($base-size * 2.625);
+}
+
+.logo {
+  color: $blue;
+  font-family: $font-raleway;
+  font-size: calc($base-size * 2);
+  font-weight: 300;
+  line-height: calc($base-size * 2.3125);
+}
+
+.btn__blue {
+  background-color: $blue;
+  box-shadow: 5px 10px 14px #07ACE629;
+  color: $white;
+  border: none;
+}
+
+.btn {
+  position: relative;
+  font-size: calc($base-size * 0.8125);
+  font-weight: bold;
+  bottom: -25px;
+  text-decoration: none;
+  color: $white;
+  border-radius: 23px;
+  background-repeat: no-repeat;
+  padding: 16px 57px;
+  display: inline-block;
+}

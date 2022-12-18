@@ -1,0 +1,123 @@
+.contact {
+  margin-top: 155px;
+  display: flex;
+  justify-content: center;
+
+
+  .contact__container {
+    width: 50%;
+
+
+    .contact__title {
+      font-size: calc($base-size * 3.0625);
+      line-height: calc($base-size * 3.5625);
+      margin-bottom: 22px;
+    }
+
+    .contact__text {
+      font-size: $base-size;
+      line-height: calc($base-size * 1.375);
+      margin-bottom: 40px;
+    }
+
+    .details__item {
+      color: $grey;
+      font-size: $base-size;
+      line-height: calc($base-size * 1.375);
+      font-weight: 600;
+    }
+  }
+
+  .form__container {
+    width: 50%;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+
+      .form__field {
+        display: flex;
+        flex-direction: column;
+
+        &:nth-of-type(1) {
+          margin-bottom: 42px;
+        }
+      }
+
+      .form__label {
+        color: $blue;
+        font-size: calc($base-size * 0.6875);
+        line-height: calc($base-size * 0.9375);
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .form__input {
+        border: none;
+        border-bottom: 1px solid $grey;
+        background-color: transparent;
+        line-height: calc($base-size * 2.625);
+      }
+
+    }
+  }
+
+  .form__container__checkbox {
+    margin-top: 30px;
+
+    .form__checkbox {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: calc($base-size * 1.375);
+
+
+      input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+
+        &:checked ~ .checkbox {
+          background-image: url(../assets/Checkmark.svg);
+          background-position: center;
+          background-size: 50%;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .checkbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: $white;
+        border: 1px solid $grey;
+        border-radius: 4px;
+      }
+
+      .container__text {
+        margin: 0 10px;
+        font-size: calc($base-size * 0.75);
+        color: $grey;
+        line-height: calc($base-size * 1.0625);
+      }
+    }
+  }
+
+  .form__btn {
+    font-size: calc ($base-size * 0.8125);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 20px 97px;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-bottom: 59px;
+  }
+
+}
