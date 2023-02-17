@@ -7,6 +7,11 @@ body {
 .container {
   width: 1352px;
   margin: 0 auto;
+
+  @include tablet {
+    width: 100%;
+    padding: 0 15px;
+  }
 }
 
 a {
@@ -46,3 +51,4 @@ h2 {
   padding: 16px 57px;
   display: inline-block;
 }
+

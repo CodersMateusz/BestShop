@@ -1,0 +1,210 @@
+.calc__container {
+  width: 865px;
+  margin: 0 auto;
+}
+
+.calc {
+  padding: 80px 0;
+  background-color: $grey-background;
+
+  @include tablet {
+    padding: 30px 15px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  &__columns {
+    max-width: 865px;
+    margin: 50px auto 0;
+    display: flex;
+
+    @include tablet {
+      display: block;
+    }
+  }
+
+  &__form {
+    width: 50%;
+    margin-right: 20px;
+
+    @include tablet {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+
+  &__input input,
+  &__select .select__input {
+    color: $grey;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid $blue;
+    padding: 11px 20px;
+    line-height: 1em;
+    font-size: 0.8125rem;
+    box-shadow: 0px 3px 6px $blue;
+    margin-bottom: 20px;
+    background-color: $white;
+  }
+
+  &__input {
+    input {
+      &::placeholder {
+        color: $grey;
+      }
+    }
+  }
+
+  &__select {
+    position: relative;
+
+    .select__input {
+      position: relative;
+      height: 40px;
+      vertical-align: middle;
+      padding: 13px 20px;
+      cursor: pointer;
+
+      &::after {
+        content: "";
+        background-image: url("../assets/Arrow.svg");
+        width: 22px;
+        height: 22px;
+        display: block;
+        position: absolute;
+        right: 14px;
+        top: 9px;
+      }
+    }
+
+    .select__dropdown {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background-color: $white;
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid $red;
+      overflow: hidden;
+
+      li {
+        font-size: 13px;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $grey-background;
+        }
+      }
+    }
+
+
+    &.show {
+      .select__input::after {
+        transform: rotate(180deg);
+      }
+
+      .select__dropdown {
+        display: block;
+      }
+    }
+  }
+
+  .form__checkbox {
+    display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: calc($base-size * 1.375);
+
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+
+      &:checked ~ .checkbox {
+        background-image: url(../assets/Checkmark.svg);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .checkbox {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: $white;
+      border: 1px solid $grey;
+      border-radius: 4px;
+    }
+    .consent__text {
+      padding-top: 4px;
+      font-size: $base-size;
+      color: $grey;
+    }
+  }
+
+  &__summary {
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 30px;
+    }
+
+    .summary__total,
+    .list__item {
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+      border-radius: 6px;
+      justify-content: space-between;
+      align-items: center;
+      color: $white;
+      font-size: 0.875rem;
+      display: none;
+
+      &.show {
+        display: flex;
+      }
+    }
+
+    .summary__total {
+      width: 50%;
+      align-self: flex-end;
+      margin-top: 22px;
+      padding: 8px 20px;
+      background-color: $blue;
+
+      .total__price {
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+    }
+
+    .list__item {
+      padding: 6px 20px;
+      background-color: $green;
+      margin-bottom: 8px;
+
+      .item {
+        &__price {
+          font-weight: 700;
+          font-size: 1.125rem;
+        }
+      }
+    }
+  }
+}
+

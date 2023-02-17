@@ -1,6 +1,7 @@
 @import "generic/reset";
 @import "settings/colors";
 @import "settings/fonts";
+@import "settings/breakpoints";
 @import "generic/global";
 
 @import "elements/header";
@@ -9,4 +10,5 @@
 @import "elements/benefits";
 @import "elements/pricing";
 @import "elements/contacts";
+@import "elements/calculator";
 @import "elements/footer";
