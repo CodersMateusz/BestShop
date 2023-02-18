@@ -1,14 +1,14 @@
-4371
+4372
 66/home/mateusz/coderslab/block1/BestShop/scss/settings/_colors.scss1671732327785947953 0
 53/home/mateusz/coderslab/block1/BestShop/scss/settings1675509404167734104 1
 54/home/mateusz/coderslab/block1/BestShop/scss/main.scss1676630310571492981 0
 64/home/mateusz/coderslab/block1/BestShop/scss/generic/_reset.scss1671732327785947953 0
-68/home/mateusz/coderslab/block1/BestShop/scss/elements/_contacts.scss1671732327785947953 0
-67/home/mateusz/coderslab/block1/BestShop/scss/elements/_pricing.scss1671732327785947953 0
-66/home/mateusz/coderslab/block1/BestShop/scss/elements/_opener.scss1675504968537311256 0
+68/home/mateusz/coderslab/block1/BestShop/scss/elements/_contacts.scss1676708943058279496 0
+67/home/mateusz/coderslab/block1/BestShop/scss/elements/_pricing.scss1676707545489730193 0
+66/home/mateusz/coderslab/block1/BestShop/scss/elements/_opener.scss1676654261158871926 0
 49/home/mateusz/coderslab/block1/BestShop/README.md1671732327785947953 0
 57/home/mateusz/coderslab/block1/BestShop/package-lock.json1676634710162687483 0
-50/home/mateusz/coderslab/block1/BestShop/index.html1675614642418158270 0
+50/home/mateusz/coderslab/block1/BestShop/index.html1676731448382954255 0
 61/home/mateusz/coderslab/block1/BestShop/assets/Phone Icon.svg1674296037879235000 0
 59/home/mateusz/coderslab/block1/BestShop/assets/Facebook.svg1674296037879235000 0
 58/home/mateusz/coderslab/block1/BestShop/assets/Macbook.png1674296037879235000 0
@@ -18,16 +18,16 @@
 54/home/mateusz/coderslab/block1/BestShop/assets/Eye.svg1674296037879235000 0
 56/home/mateusz/coderslab/block1/BestShop/assets/Arrow.svg1674296037879235000 0
 60/home/mateusz/coderslab/block1/BestShop/assets/Mail Icon.svg1674296037879235000 0
-61/home/mateusz/coderslab/block1/BestShop/dist/Eye.e60e75e7.svg1676634734442962002 0
-55/home/mateusz/coderslab/block1/BestShop/dist/index.html1676634734442962002 0
-66/home/mateusz/coderslab/block1/BestShop/dist/Facebook.389b15e8.svg1676634734442962002 0
-65/home/mateusz/coderslab/block1/BestShop/dist/Trumpet.041da3b3.png1676634734442962002 0
-69/home/mateusz/coderslab/block1/BestShop/dist/Ckechmark-1.80ec2266.svg1676634734446962045 0
-64/home/mateusz/coderslab/block1/BestShop/dist/Person.e8721018.svg1676634734442962002 0
-62/home/mateusz/coderslab/block1/BestShop/dist/index.cea00a9b.js1676634734450962088 0
-68/home/mateusz/coderslab/block1/BestShop/dist/Phone Icon.b10af3a5.svg1676634734442962002 0
-65/home/mateusz/coderslab/block1/BestShop/dist/BestShop.3464ddca.js1676634734450962088 0
-44/home/mateusz/coderslab/block1/BestShop/dist1676634734458962174 1
+61/home/mateusz/coderslab/block1/BestShop/dist/Eye.e60e75e7.svg1676709633767341014 0
+55/home/mateusz/coderslab/block1/BestShop/dist/index.html1676731448546944964 0
+66/home/mateusz/coderslab/block1/BestShop/dist/Facebook.389b15e8.svg1676709633767341014 0
+65/home/mateusz/coderslab/block1/BestShop/dist/Trumpet.041da3b3.png1676709633759341208 0
+69/home/mateusz/coderslab/block1/BestShop/dist/Ckechmark-1.80ec2266.svg1676707311908616366 0
+64/home/mateusz/coderslab/block1/BestShop/dist/Person.e8721018.svg1676709633755341305 0
+62/home/mateusz/coderslab/block1/BestShop/dist/index.cea00a9b.js1676709633767341014 0
+68/home/mateusz/coderslab/block1/BestShop/dist/Phone Icon.b10af3a5.svg1676709633767341014 0
+65/home/mateusz/coderslab/block1/BestShop/dist/BestShop.3464ddca.js1676731448494947910 0
+44/home/mateusz/coderslab/block1/BestShop/dist1676731448546944964 1
 74/home/mateusz/coderslab/block1/BestShop/node_modules/has-flag/package.json1676634708418666769 0
 71/home/mateusz/coderslab/block1/BestShop/node_modules/has-flag/readme.md1676634708518667960 0
 70/home/mateusz/coderslab/block1/BestShop/node_modules/has-flag/index.js1676634708486667579 0
@@ -190,7 +190,7 @@
 80/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/package-manager/lib1676634708962673248 1
 87/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/package-manager/index.d.ts1676634708962673248 0
 94/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-posthtml/package.json1676634708586668770 0
-69/home/mateusz/coderslab/block1/BestShop/dist/BestShop.3464ddca.js.map1676634734458962174 0
+69/home/mateusz/coderslab/block1/BestShop/dist/BestShop.3464ddca.js.map1676731448518946550 0
 108/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-posthtml/src/PostHTMLTransformer.js1676634708566668531 0
 100/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-posthtml/src/loadPlugins.js1676634708526668055 0
 85/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-posthtml/src1676634708546668293 1
@@ -352,7 +352,7 @@
 135/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-main-directory/nested1676634708938672962 1
 134/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-alias/bar.js1676634708774671009 0
 149/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-alias/subfolder1/subfolder21676634709082674674 1
-63/home/mateusz/coderslab/block1/BestShop/dist/Arrow.7c8fdf4f.svg1676634734442962002 0
+63/home/mateusz/coderslab/block1/BestShop/dist/Arrow.7c8fdf4f.svg1676709633755341305 0
 140/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-alias/package.json1676634709110675006 0
 137/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-alias/nested.js1676634709038674152 0
 86/home/mateusz/coderslab/block1/BestShop/node_modules/css-tree/lib/syntax/pseudo/common1676634709054674342 1
@@ -398,7 +398,7 @@
 79/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/node-resolver-core1676634709094674817 1
 91/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-image/package.json1676634708630669294 0
 102/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-image/src/ImageTransformer.js1676634708526668055 0
-66/home/mateusz/coderslab/block1/BestShop/scss/elements/_header.scss1671732327785947953 0
+66/home/mateusz/coderslab/block1/BestShop/scss/elements/_header.scss1676654006163835449 0
 82/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-image/src1676634708610669056 1
 100/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-image/lib/validateConfig.js1676634708606669008 0
 82/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-image/lib1676634708566668531 1
@@ -439,7 +439,7 @@
 89/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/core/src/UncommittedAsset.js1676634709134675291 0
 78/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/core/src/types.js1676634709126675196 0
 86/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/core/src/applyRuntimes.js1676634708826671628 0
-50/home/mateusz/coderslab/block1/BestShop/.gitignore1676631213468036746 0
+50/home/mateusz/coderslab/block1/BestShop/.gitignore1676639835892423255 0
 87/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/core/src/Transformation.js1676634709126675196 0
 98/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/core/test/ParcelConfigRequest.test.js1676634709054674342 0
 91/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/core/test/PublicBundle.test.js1676634709066674484 0
@@ -589,9 +589,9 @@
 74/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/types/LICENSE1676634708422666816 0
 66/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/types1676634708582668722 1
 89/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-raw/package.json1676634708546668293 0
-67/home/mateusz/coderslab/block1/BestShop/dist/Checkmark.c57fbd17.svg1676634734446962045 0
+67/home/mateusz/coderslab/block1/BestShop/dist/Checkmark.c57fbd17.svg1676709633767341014 0
 98/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-raw/src/RawTransformer.js1676634708526668055 0
-65/home/mateusz/coderslab/block1/BestShop/scss/elements/_stats.scss1671732327785947953 0
+65/home/mateusz/coderslab/block1/BestShop/scss/elements/_stats.scss1676654405781156351 0
 104/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/core/test/fixtures/config-extends-not-found1676634708790671200 1
 98/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-raw/lib/RawTransformer.js1676634708490667626 0
 80/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-raw/lib1676634708470667388 1
@@ -1188,7 +1188,7 @@
 70/home/mateusz/coderslab/block1/BestShop/node_modules/lmdb/util/when.js1676634709118675101 0
 83/home/mateusz/coderslab/block1/BestShop/node_modules/update-browserslist-db/LICENSE1676634708406666626 0
 75/home/mateusz/coderslab/block1/BestShop/node_modules/update-browserslist-db1676634708554668389 1
-63/home/mateusz/coderslab/block1/BestShop/dist/index.574c7455.css1676634734442962002 0
+63/home/mateusz/coderslab/block1/BestShop/dist/index.574c7455.css1676709910449046989 0
 77/home/mateusz/coderslab/block1/BestShop/node_modules/picocolors/picocolors.js1676634708482667531 0
 71/home/mateusz/coderslab/block1/BestShop/node_modules/get-port/readme.md1676634708518667960 0
 72/home/mateusz/coderslab/block1/BestShop/node_modules/picocolors/types.ts1676634708558668436 0
@@ -1246,7 +1246,7 @@
 77/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-html1676634708642669437 1
 72/home/mateusz/coderslab/block1/BestShop/node_modules/semver/package.json1676634708574668627 0
 72/home/mateusz/coderslab/block1/BestShop/node_modules/semver/CHANGELOG.md1676634708594668865 0
-65/home/mateusz/coderslab/block1/BestShop/scss/generic/_global.scss1676630638473553545 0
+65/home/mateusz/coderslab/block1/BestShop/scss/generic/_global.scss1676648931741765978 0
 67/home/mateusz/coderslab/block1/BestShop/node_modules/semver/LICENSE1676634708410666673 0
 167/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/.pnpm/source-pnpm@1.0.0/node_modules/source-pnpm/package.json1676634709098674864 0
 73/home/mateusz/coderslab/block1/BestShop/node_modules/fill-range/README.md1676634708518667960 0
@@ -1290,7 +1290,7 @@
 93/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/src/_async_to_generator.mjs1676634708942673010 0
 92/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/vibration.js1676634709254676715 0
 74/home/mateusz/coderslab/block1/BestShop/node_modules/msgpackr/iterators.js1676634708778671057 0
-66/home/mateusz/coderslab/block1/BestShop/dist/index.cea00a9b.js.map1676634734458962174 0
+66/home/mateusz/coderslab/block1/BestShop/dist/index.cea00a9b.js.map1676709633779340723 0
 109/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/runtime-js/src/helpers/browser/preload-loader.js1676634708862672057 0
 72/home/mateusz/coderslab/block1/BestShop/node_modules/anymatch/index.d.ts1676634708522668007 0
 87/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/core/lib/RequestTracker.js1676634709078674627 0
@@ -1344,6 +1344,7 @@
 81/home/mateusz/coderslab/block1/BestShop/node_modules/htmlnano/lib/presets/safe.js1676634708826671628 0
 97/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/feature-policy.js1676634709178675813 0
 103/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/spellcheck-attribute.js1676634709238676525 0
+69/home/mateusz/coderslab/block1/BestShop/dist/Checkmark-1.22a0eaf4.svg1676709633767341014 0
 83/home/mateusz/coderslab/block1/BestShop/node_modules/type-fest/ts41/camel-case.d.ts1676634708626669246 0
 89/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/jpegxl.js1676634709202676098 0
 84/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/regions/MM.js1676634709214676241 0
@@ -1457,7 +1458,7 @@
 73/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/packager-svg1676634708526668055 1
 84/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/regions/MH.js1676634709214676241 0
 79/home/mateusz/coderslab/block1/BestShop/node_modules/msgpackr/dist/index.min.js1676634708770670961 0
-68/home/mateusz/coderslab/block1/BestShop/scss/elements/_benefits.scss1671732327785947953 0
+68/home/mateusz/coderslab/block1/BestShop/scss/elements/_benefits.scss1676706554496061346 0
 104/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/src/_class_private_field_loose_key.mjs1676634708958673201 0
 84/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/regions/CF.js1676634708958673201 0
 94/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/canvas-text.js1676634708950673105 0
@@ -2203,7 +2204,7 @@
 71/home/mateusz/coderslab/block1/BestShop/node_modules/domelementtype/lib1676634708658669627 1
 89/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/lib/_new_arrow_check.js1676634708870672152 0
 95/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/src/_wrap_async_generator.mjs1676634709042674199 0
-68/home/mateusz/coderslab/block1/BestShop/dist/Background.96fc9b9b.png1676634734450962088 0
+68/home/mateusz/coderslab/block1/BestShop/dist/Background.96fc9b9b.png1676709633767341014 0
 81/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/utils/src/urlJoin.js1676634708998673677 0
 93/home/mateusz/coderslab/block1/BestShop/node_modules/binary-extensions/binary-extensions.json1676634708490667626 0
 84/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/regions/CD.js1676634708958673201 0
@@ -2638,7 +2639,7 @@
 96/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/workers/src/process/ProcessChild.js1676634708790671200 0
 78/home/mateusz/coderslab/block1/BestShop/node_modules/weak-lru-cache/index.d.ts1676634708634669341 0
 80/home/mateusz/coderslab/block1/BestShop/node_modules/lines-and-columns/README.md1676634708518667960 0
-63/home/mateusz/coderslab/block1/BestShop/dist/Close.22110c7d.svg1676634734442962002 0
+63/home/mateusz/coderslab/block1/BestShop/dist/Close.22110c7d.svg1676709633755341305 0
 78/home/mateusz/coderslab/block1/BestShop/node_modules/chokidar/lib/constants.js1676634708490667626 0
 80/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-svg/lib1676634708622669199 1
 101/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/src/_class_apply_descriptor_get.mjs1676634708946673058 0
@@ -2704,7 +2705,7 @@
 66/home/mateusz/coderslab/block1/BestShop/node_modules/svgo/lib/svgo1676634708994673629 1
 94/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/src/_array_like_to_array.mjs1676634708930672867 0
 87/home/mateusz/coderslab/block1/BestShop/node_modules/abortcontroller-polyfill/README.md1676634708742670628 0
-67/home/mateusz/coderslab/block1/BestShop/dist/index.574c7455.css.map1676634734458962174 0
+67/home/mateusz/coderslab/block1/BestShop/dist/index.574c7455.css.map1676709910449046989 0
 80/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/transformer-svg/src1676634708630669294 1
 62/home/mateusz/coderslab/block1/BestShop/node_modules/lmdb/util1676634709118675101 1
 88/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/regions/alt-na.js1676634708786671152 0
@@ -2926,7 +2927,7 @@
 86/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/core/lib/applyRuntimes.js1676634708806671390 0
 98/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/async-clipboard.js1676634708858672010 0
 73/home/mateusz/coderslab/block1/BestShop/node_modules/json5/lib/unicode.js1676634708698670104 0
-66/home/mateusz/coderslab/block1/BestShop/scss/elements/_footer.scss1671732327785947953 0
+66/home/mateusz/coderslab/block1/BestShop/scss/elements/_footer.scss1676709074070373775 0
 124/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/node-resolver-core/test/fixture/packages/source-alias/source.js1676634709078674627 0
 82/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/lib/_defaults.js1676634708834671724 0
 84/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/regions/HK.js1676634709190675956 0
@@ -3003,7 +3004,7 @@
 78/home/mateusz/coderslab/block1/BestShop/node_modules/is-binary-path/index.d.ts1676634708466667340 0
 79/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/markdown-ansi/test1676634708550668341 1
 78/home/mateusz/coderslab/block1/BestShop/node_modules/svgo/plugins/prefixIds.js1676634708878672248 0
-70/home/mateusz/coderslab/block1/BestShop/scss/elements/_calculator.scss1676630657009451416 0
+70/home/mateusz/coderslab/block1/BestShop/scss/elements/_calculator.scss1676709910225057348 0
 84/home/mateusz/coderslab/block1/BestShop/node_modules/css-tree/lib/parser/sequence.js1676634709058674389 0
 84/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/regions/TN.js1676634709246676620 0
 98/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/src/_class_private_field_set.mjs1676634708962673248 0
@@ -3024,7 +3025,7 @@
 99/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/text-size-adjust.js1676634709246676620 0
 109/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/lib/_class_static_private_field_spec_get.js1676634708782671104 0
 91/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/wai-aria.js1676634709254676715 0
-65/home/mateusz/coderslab/block1/BestShop/dist/Macbook.a1f4b436.png1676634734446962045 0
+65/home/mateusz/coderslab/block1/BestShop/dist/Macbook.a1f4b436.png1676709633763341111 0
 83/home/mateusz/coderslab/block1/BestShop/node_modules/svgo/plugins/removeUnusedNS.js1676634708922672772 0
 109/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/src/_class_apply_descriptor_destructure.mjs1676634708946673058 0
 104/home/mateusz/coderslab/block1/BestShop/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_load.c1676634708906672581 0
@@ -3091,7 +3092,7 @@
 71/home/mateusz/coderslab/block1/BestShop/node_modules/css-tree/README.md1676634709090674769 0
 84/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/regions/AG.js1676634708682669913 0
 59/home/mateusz/coderslab/block1/BestShop/node_modules/base-x1676634708502667769 1
-65/home/mateusz/coderslab/block1/BestShop/dist/Catalog.8507218e.svg1676634734442962002 0
+65/home/mateusz/coderslab/block1/BestShop/dist/Catalog.8507218e.svg1676709633755341305 0
 85/home/mateusz/coderslab/block1/BestShop/node_modules/source-map-js/lib/source-node.js1676634708702670151 0
 90/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/lib/_write_only_error.js1676634708922672772 0
 75/home/mateusz/coderslab/block1/BestShop/node_modules/picomatch/lib/utils.js1676634708626669246 0
@@ -3392,7 +3393,7 @@
 99/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/user-select-none.js1676634709250676668 0
 70/home/mateusz/coderslab/block1/BestShop/node_modules/stable/index.d.ts1676634708450667150 0
 106/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/css-backgroundblendmode.js1676634709014673867 0
-64/home/mateusz/coderslab/block1/BestShop/dist/iPhone.18df9ac3.png1676634734454962131 0
+64/home/mateusz/coderslab/block1/BestShop/dist/iPhone.18df9ac3.png1676709633767341014 0
 75/home/mateusz/coderslab/block1/BestShop/node_modules/node-gyp-build/LICENSE1676634708414666721 0
 98/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/css-paged-media.js1676634709110675006 0
 83/home/mateusz/coderslab/block1/BestShop/node_modules/binary-extensions/package.json1676634708502667769 0
@@ -3549,7 +3550,7 @@
 94/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/css3-colors.js1676634709150675481 0
 95/home/mateusz/coderslab/block1/BestShop/node_modules/@swc/helpers/src/_class_name_tdz_error.mjs1676634708954673153 0
 75/home/mateusz/coderslab/block1/BestShop/node_modules/htmlnano/.eslintignore1676634708418666769 0
-67/home/mateusz/coderslab/block1/BestShop/dist/Mail Icon.b0bc1804.svg1676634734446962045 0
+67/home/mateusz/coderslab/block1/BestShop/dist/Mail Icon.b0bc1804.svg1676709633755341305 0
 105/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/viewport-unit-variants.js1676634709254676715 0
 87/home/mateusz/coderslab/block1/BestShop/node_modules/caniuse-lite/data/features/midi.js1676634709214676241 0
 78/home/mateusz/coderslab/block1/BestShop/node_modules/cosmiconfig/dist/types.js1676634708630669294 0
@@ -3664,7 +3665,7 @@
 97/home/mateusz/coderslab/block1/BestShop/node_modules/@babel/highlight/node_modules/supports-color1676634708510667864 1
 72/home/mateusz/coderslab/block1/BestShop/node_modules/json5/dist/index.js1676634708562668484 0
 73/home/mateusz/coderslab/block1/BestShop/node_modules/json5/dist/index.mjs1676634708778671057 0
-65/home/mateusz/coderslab/block1/BestShop/dist/Twitter.41e2b00a.svg1676634734442962002 0
+65/home/mateusz/coderslab/block1/BestShop/dist/Twitter.41e2b00a.svg1676709633755341305 0
 95/home/mateusz/coderslab/block1/BestShop/node_modules/@parcel/markdown-ansi/lib/markdown-ansi.js1676634708490667626 0
 68/home/mateusz/coderslab/block1/BestShop/node_modules/json5/README.md1676634708746670675 0
 70/home/mateusz/coderslab/block1/BestShop/node_modules/base-x/LICENSE.md1676634708502667769 0

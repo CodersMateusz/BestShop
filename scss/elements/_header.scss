@@ -2,16 +2,87 @@
   height: 70px;
   box-shadow: 0 3px 6px #00000029;
 
+  .menu {
+    &__btn {
+      display: none;
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+      opacity: 0;
+      
+      @include mobile {
+        &:checked {
+          ~ .header__nav {
+            display: flex;
+          }
+
+          ~ .menu__toggle {
+            span {
+              &:nth-child(1) {
+                transform: rotate(45deg) translate(2px, 5px);
+              }
+              &:nth-child(2) {
+                opacity: 0;
+              }
+              &:nth-child(3) {
+                transform: rotate(-45deg) translate(2px, -5px);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &__toggle {
+      display: none;
+
+      span {
+        width: 20px;
+        height: 2px;
+        display: block;
+        margin-bottom: 3px;
+        background-color: $blue;
+        transition: .3s all ease-in-out;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      @include mobile {
+        display: block;
+      }
+    }
+  }
 
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
-
+    
     .header__nav {
       display: flex;
 
+      @include mobile {
+        position: absolute;
+        left: 0;
+        top: 95px;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        padding-bottom: 20px;
+        display: none;
+  
+        .nav__element {
+          padding: 0;
+        }
+  
+        .nav__link {
+          display: block;
+          padding: 14px 20px;
+        }
+      }
+  
       .header__nav__element {
         padding: 0 26px;
 
@@ -29,6 +100,11 @@
         letter-spacing: 0.1875rem;
         padding: 28px 18px 22px;
         border: 4px solid transparent;
+       
+        @include mobile {
+          display: block;
+          padding: 6px 0px;
+        }
 
         &:hover {
           color: $black;

@@ -1,119 +1,164 @@
 .pricing {
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 100px;
 
+  @include laptop {
+    margin: 50px auto;
+  }
 
-  .pricing__boxes {
+  
+  &__boxes {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin-top: 50px;
 
-
-    .pricing__box {
-      display: flex;
+    @include laptop {
       flex-direction: column;
-      align-items: center;
-      width: 372px;
-      border: 1px solid;
-      border-radius: 18px;
+      width: 100%;
+    }
+  }
 
+  &__box {
+    width: 370px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--accent-color);
 
-      .pricing__details {
-        margin-top: 34px;
-        margin-bottom: 69px;
-        text-align: center;
+    @include laptop {
+      width: 100%;
+      max-width: 370px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      justify-content: center;
+      padding: 25px 10px 0 10px;
 
-
-        .pricing__box__type {
-          font-family: $font-raleway;
-          font-size: calc($base-size * 1.25);
-          font-weight: bold;
-        }
-
-        .pricing__box__price {
-          font-size: calc($base-size * 2.875);
-          font-weight: 300;
-          margin-top: 14px;
-        }
-
-        .pricing__box__offer {
-          font-size: calc($base-size * 0.75);
-          font-family: $font-raleway;
-          font-weight: bold;
-          margin-top: 5px;
-        }
+      &:last-child {
+        margin-bottom: 0;
       }
+    }
 
-      .pricing__list {
-        text-align: center;
+    .btn {
+      position: relative;
+      bottom: -25px;
+      font-size: 0.8125rem;
+      background-color: var(--accent-color);
+    }
 
 
-        .pricing__list__element {
-          font-size: calc($base-size * 0.875);
-          line-height: calc($base-size * 2.5625);
 
+    /*** Basic Box ***/
+    &--basic {
+      --accent-color: #{$red};
 
-          &::before {
-            content: "";
-            width: 11px;
-            height: 11px;
-            background-image: url("../assets/Ckechmark-1.svg");
-            display: inline-block;
-            margin-right: 10px;
-          }
-        }
+      .pricing__price {
+        margin-bottom: 30px;
 
-        .pricing__list__element__not {
-
-          &::before {
-            background-image: url("../assets/Close.svg");
-          }
+        @include laptop {
+          margin-bottom: 0;
         }
       }
+    }
 
-      &:nth-of-type(1) {
-        border-color: $red;
-        margin-right: 59px;
+    /*** Professional Box **/
+    &--professional {
+      --accent-color: #{$blue};
+      width: 400px;
+      margin: 0 40px;
+      box-shadow: 5px 1px 27px $blue;
+
+      @include laptop {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 0 50px 0;
       }
 
-      &:nth-of-type(1) .pricing__box__price {
-        color: $red;
-        margin-bottom: 17px;
-      }
+      .pricing {
+        &__type {
+          font-size: 1.3125rem;
+        }
 
-      &:nth-of-type(1) .btn {
-        background-color: $red;
+        &__item {
+          margin-bottom: 25px;
+        }
       }
+    }
 
-      &:nth-of-type(2) {
-        border-color: $blue;
-        width: 405px;
-        margin-right: 58px;
-        box-shadow: 5px 10px 27px #07ACE629;
-      }
+    /*** Premium Box ***/
+    &--premium {
+      --accent-color: #{$green};
+    }
+  }
 
-      &:nth-of-type(2) .pricing__box__price {
-        color: $blue;
-      }
+  &__details {
+    margin-top: 34px;
+    margin-bottom: 60px;
+    text-align: center;
 
-      &:nth-of-type(2) .pricing__box__offer {
-        margin-bottom: 39px;
-      }
+    @include laptop {
+      width: 50%;
+      margin: 0;
+    }
+  }
 
-      &:nth-of-type(3) {
-        border-color: $green;
-      }
+  &__type {
+    font-size: 1.25rem;
+    font-family: $font-raleway;
+    font-weight: 700;
+  }
 
-      &:nth-of-type(3) .pricing__box__price {
-        color: $green;
-      }
+  &__price {
+    font-size: 2.875rem;
+    font-family: $font--open-sans;
+    font-weight: 300;
+    margin-top: 25px;
+    color: var(--accent-color);
+  }
 
-      &:nth-of-type(3) .btn {
-        background-color: $green;
+  &__limited {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.75rem;
+    font-family: $font-raleway;
+    font-weight: 700;
+  }
+
+  &__items {
+    text-align: center;
+
+    @include laptop {
+      width: 50%;
+      text-align: left;
+    }
+  }
+
+  &__item {
+    font-size: 14px;
+    margin-bottom: 20px;
+
+    @include laptop {
+      &:last-child {
+        margin-bottom: 0;
       }
+    }
+
+    &::before {
+      content: "";
+      width: 11px;
+      height: 11px;
+      display: inline-block;
+      margin-right: 10px;
+      background-image: url("../assets/Checkmark-1.svg");
+    }
+
+    &--not::before {
+      background-image: url("../assets/Close.svg");
     }
   }
 }

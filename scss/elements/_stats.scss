@@ -1,6 +1,10 @@
 .stats {
   margin-top: 100px;
 
+  @include mobile {
+    margin-top: 50px;
+  }
+
   .stats__title {
     text-align: center;
   }
@@ -11,6 +15,12 @@
     display: flex;
     justify-content: space-between;
 
+    @include mobile {
+      margin: 35px auto 50px;
+      align-items: center;
+      flex-direction: column;
+    }
+    
     .stats__element {
       max-width: 160px;
       display: flex;
@@ -20,6 +30,14 @@
       text-align: center;
       font-family: $font-raleway;
 
+      @include mobile {
+        margin-bottom: 35px;
+      
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      
       .stats__circle {
         width: 63px;
         height: 63px;

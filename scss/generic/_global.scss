@@ -1,4 +1,8 @@
 $base-size: 16px;
+$button-radius: 35px;
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: $font--open-sans;
